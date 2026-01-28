@@ -1,0 +1,27 @@
+A realistic dataset image for an autonomous search-and-rescue robot training.
+
+A person lying on the ground in an indoor post-earthquake environment, WITHOUT any visible injuries.
+No blood, no wounds, no violence, no medical equipment, no emergency responders.
+
+Camera:
+Ground-level camera positioned approximately 10 centimeters above the floor.
+Low-angle perspective, like a rescue robot.
+Wide-angle lens, natural look.
+
+Environment:
+Collapsed building interior, concrete floor, dust, small debris, broken tiles.
+Soft natural lighting.
+
+Pose:
+Person lying naturally on the ground, full body visible in frame.
+Arms and legs relaxed.
+
+Style:
+Photorealistic, dataset-style, neutral, no cinematic effects.
+
+Variant:
+Person partially covered with dust (no injury).
+
+model=gemini-3-pro-image-preview
+aspect_ratio=4:3
+image_size=1K
