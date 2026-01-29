@@ -45,12 +45,16 @@ venv.bak/
 # Generated datasets
 experiments/kendidatasetimiz/dataset/
 
-# YOLO weights and results
-*.pt
+# YOLO weights and results (ignore outputs, allow selected weights)
 *.onnx
 *.tflite
 *.pb
 runs/
+
+# Allow PyTorch weights (.pt) that you want to commit
+!*.pt
+!experiments/fallenpersondataset/**/best.pt
+!experiments/fallenpersondataset/**/last.pt
 
 # IDE
 .vscode/
