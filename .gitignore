@@ -46,9 +46,6 @@ venv.bak/
 experiments/kendidatasetimiz/dataset/
 
 # YOLO weights and results (ignore outputs, allow selected weights)
-*.onnx
-*.tflite
-*.pb
 runs/
 
 # Allow PyTorch weights (.pt) that you want to commit
