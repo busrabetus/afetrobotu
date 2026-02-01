@@ -48,6 +48,11 @@ experiments/kendidatasetimiz/dataset/
 # YOLO weights and results (ignore outputs, allow selected weights)
 runs/
 
+# Allow specific trained model runs
+!experiments/fallenpersondataset/runs/
+!experiments/fallenpersondataset/runs/detect/
+!experiments/fallenpersondataset/runs/detect/train_yolov26n/
+
 # Allow PyTorch weights (.pt) that you want to commit
 !*.pt
 !experiments/fallenpersondataset/**/best.pt
